@@ -1,0 +1,419 @@
+
+
+/* general body style - centered, background  */
+body {
+    justify-content: center;
+    text-align: center;
+    height: 100%
+}
+
+/* main header styling */
+.h1-style {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: black 0px 0px 3px;
+    font-weight: 900;
+    font-size: 52px;
+    color: darkblue;
+    position: relative;
+    margin-top: 1%;
+}   
+
+/* parallax styling */
+.header-parallax {
+    background: url("../Images/parallax-image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 270px;
+}
+
+
+/* nav bar list */
+ul {
+    width: 100%;
+       list-style: none;
+      
+       float: left;
+   }
+   
+   /* nav bar items - big */
+   li {
+       font-size: 30px;
+       float: left;
+   }
+
+      /* animation of nav bar */
+      a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 23px;
+        text-decoration: none;
+        font-size: 20px;
+       }
+
+   /* animation of nav bar */
+   a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+   
+   /* one line nav bar responsive */
+   .navbar-nav{
+    flex-direction: unset;
+    display: inline-block ;
+   }
+
+   /* nav bar styling */
+   .navbar-style{
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+
+   }
+
+   /* nav bar clicked */
+   .navbar-style a.active {
+    background-color: #04AA6D;
+    color: white;
+   }
+
+   /* main container of site */
+   .page-container-style{
+    height:100%;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(../Images/background.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-position: center;
+   }
+
+/* about me pic  */
+   .mypic-Style
+   {
+    width: 11%;
+    position: absolute;
+    z-index: 8;
+    float: right;
+    margin-left: 39%;
+    margin-top: -166px;
+   }
+
+
+/* about me header */
+   .about-me-header-styling
+{
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-size: 52px;
+    color: darkblue;
+    text-shadow: black 0px 0px 3px;
+    font-weight: 900;
+    height: 166px;
+    top: 0;
+    bottom: 0;
+}
+   
+
+/* facebook & linkedin links  */
+   .social-medias-Style
+   {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    font-weight: 900;
+    text-shadow: black 0px 0px 1px;
+   }
+
+   /* facebook & linkedin links size  */
+   .media-icon-style
+   {
+    height: 54px;
+   }
+
+   /* each card row style  */
+   .row {
+    width: 98%;
+    margin-top: 5%;
+    margin-left: 1%;
+    position: relative;
+   }
+
+   /* each card img */
+   .card-img-top
+{
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+
+/* each card toggle button */
+.form-check
+{
+    z-index: 1;
+    font-size: 24px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+/* each card title */
+.card-title
+{
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+}
+
+/* each card text style  */
+
+.card-text
+{
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    font-size: initial;
+    font-family: 'Orbitron';
+    letter-spacing: 3px;
+}
+
+
+/* each card body style  */
+.card-body {
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    font-size: initial;
+    letter-spacing: 2px;
+    background-color: #FFFFF0;
+}
+
+/* card proportions & hover */
+.h-100 {
+    outline-style: solid ;
+    outline-width: 4px;
+    transition: 0.8s;
+    box-shadow: black 0px 0px 0px 5px;
+}
+.h-100:hover
+{
+    box-shadow: black 0px 0px 43px;  
+}
+   
+
+   
+  /* search input style*/
+.search-style
+    {
+     border-radius: 15px;
+     padding-left: 8px;
+     font-weight: 500;
+     outline-style: auto;
+    }
+ 
+
+
+  
+
+   
+/* class for buttons style  */
+   .button-class {
+    outline-style: auto;
+    border-radius: 15px;
+    padding-left: 7px;
+    font-weight: 500;
+    margin-right: 2px;
+   }
+
+   /* search area style  */
+   .search-area-style
+   {
+    width: fit-content;
+    padding-top: 16px;
+    float: right;
+    margin-right: 12px;
+    margin-top: -1px;
+   }
+
+   /* card column */
+   .col
+   {
+       height:fit-content;
+       
+   }
+ 
+    /* toggle float */
+   .btn-primary {
+       float: inherit;
+   }
+
+
+/* progress bar for each card extra info  */
+   .progressBar {
+    background-color: greenyellow;
+    height: 20px;
+    margin-top: 5%;
+    border-radius: 21px;
+    width: 0%;
+    transition: width 0.6s;
+    display: flex;
+    overflow: hidden;
+  justify-content: center;
+  font-size: small;
+  }
+  
+/* page loading spinner */
+   .spinner-style{
+    margin-top: 5%;
+   }
+   
+   /* about me personal details  */
+   .my-Personal-Details-Styling
+   {
+    font-weight: 900;
+    text-shadow: black 0px 0px 1px;
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    position: relative;
+    bottom: 0;
+    top: 0;
+   }
+
+/* 5 cards pop window style  */
+   .window-style
+   {
+    width: 55vw;
+    z-index: 2;
+    margin-left: 23%;
+    outline-style: solid;
+    margin-top: 1%;
+    position: relative;
+    max-height: fit-content;
+    background-color: antiquewhite;
+    margin-bottom: 8%;
+    box-shadow: black 0px 0px 0px 6px;
+   }
+
+ 
+
+/* 5 cards style  */
+   .five-cards-window-style
+   {
+    letter-spacing: 2px;
+    font-size: 24px;
+    position: relative;
+   }
+
+  
+/* window buttons */
+   .window-buttons-style {
+    bottom: 0;
+    outline-style: auto;
+    border-radius: 15px;
+    right: 2px;
+    height: auto;
+    z-index: inherit;
+    position: absolute;
+    float: right;
+    font-weight: 700;
+    outline-style: solid;
+    bottom: -40px;
+    right: -3px;
+   }
+   .cancel
+   {
+    right: 126px;
+   }
+
+
+
+   /* site style while window is true */
+   .row-class-for-window
+   {
+    opacity: 0.1;
+   }
+
+   .navbar-nav-class-for-window
+   {
+    opacity: 0.3;
+   }
+
+   .parallax-class-for-window
+   {
+    opacity: 0.2
+   }
+
+   .page-container-class-for-window
+   {
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(../Images/background.jpg)
+   }
+  
+   .col-class-for-window
+   {
+    height: 110px
+   }
+
+   .card-height-class-for-window
+   {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: inherit;
+    outline-style: dashed;
+    outline-width: 2px
+   }
+
+   .cards-style-in-window
+   {
+    width: -webkit-fill-available
+   }
+
+   .card-flex-for-window
+   {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .red-input-validation
+   {
+    border-color: red;
+    box-shadow: red 0px 0px 15px;
+   }
+
+
+   /* reports chart size  */
+   .chart-style
+   {
+    height: 410px; 
+    width: 100%;
+   }
+
+
+   /* chart added label */
+   .chartUndefinedLabelStyle
+   {
+    font-size: 12px;
+    margin-left: 1%;
+    margin-top: -4%;
+    height: 19%;
+   }
+   
+   h6 {
+    font-size: 110%;
+   }
+
+
+
+   /* about me background & responsiveness */
+   .about-Me-Style
+   {
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    bottom: 0;
+    height: 0;
+   }
